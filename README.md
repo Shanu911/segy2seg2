@@ -12,3 +12,8 @@ pip install obspy
 ```
 pip install segy2seg2
 ```
+### How it works
+``` python
+ import segy2seg2
+ segy2seg2.convert(SEGY_filename, newConverted_SEG2_file_name)
+```
